@@ -17,8 +17,6 @@ extern "C" {
     void EEPROMInternal_Write(uint8_t EEDIR, uint8_t EEVAL);
     uint16_t EEPROMInternal_IntRead(uint8_t EEDIR);
     void EEPROMInternal_IntWrite(uint8_t EEDIR, uint16_t AARG);
-    void EEPROMInternal_FloatWrite(uint8_t EEDIR, float AARG);
-    void EEPROMInternal_FloatRead(uint8_t EEDIR, float *AARG);
     void EEPROMInternal_WriteBuffer(uint8_t EEDIR, uint8_t *EEBUFFER, uint8_t LEN);
     void EEPROMInternal_ReadBuffer(uint8_t EEDIR, uint8_t *EEBUFFER, uint8_t LEN);
 
